@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!--Donde esta la hoja de estilos-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--Donde esta la hoja de estilos-->
+    <!--Solo tener un id con un solo nombre/ no repetir nombres de id-->
+    <!--Es preferible usar clases/es mas rapido-->
+</head>
+
+<body>
+
+    <header class="site-header">
+        <!--Etiqueta de Encabezado-->
+
+        <div class="contenedor contenido-header">
+
+            <div class="barra">
+                <a href="index.html">
+                    <!--Se agrupa la imagen para que funcione como un boton-->
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                    <!--Etiqueta para importar imagenes-->
+                </a>
+
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono Menu">
+                    </a>
+                </div>
+                <nav id="navegacion" class="navegacion">
+                    <!--Etiqueta para navegaciones-->
+                    <!--<a target="_blank" href="#"></a> Para abrir enlance en una pestaña nueva (usar para dirigir a sitios agenos a la web)-->
+                    <a href="nosotros.html">Nosotros</a>
+                    <!--Enlaces-->
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <!--barra-->
+        </div>
+        <!--contenedor-->
+    </header>
+
+    <main class="contenedor">
+        <h1 class="fw-300 centrar-texto">Conoce Sobre Nosotros</h1>
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <img src="img/nosotros.jpg" alt="Imagen Sobre Nosotros">
+            </div>
+            <div class="texto-nosotros">
+                <blockquote cite="http://">
+                    25 Años de Experiencia
+                </blockquote>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dignissim tincidunt dolor, molestie interdum nisi hendrerit quis. Praesent a dui metus. Integer vehicula nisl eu metus eleifend ultricies. Proin vestibulum mi blandit purus condimentum
+                    aliquam ac vitae dui. Mauris felis velit, consectetur vel sem sed, pharetra pellentesque orci. In tincidunt, massa sed dictum vehicula, augue odio mollis lectus, ac ultrices elit felis sed nisi. Maecenas sollicitudin fringilla enim,
+                    in sollicitudin magna tempus ac. Nullam diam turpis, aliquam eu risus eu, volutpat gravida diam. Nunc pharetra vitae turpis sed convallis. Aliquam maximus mollis nisl. Sed porttitor diam sed vulputate molestie.
+                </p>
+                <p>
+                    Duis ultrices commodo eros, quis aliquam urna bibendum facilisis. Sed in pharetra tellus. Donec tincidunt, velit cursus facilisis varius, nisi ipsum aliquet justo, at laoreet orci ligula nec ligula. Phasellus vel turpis feugiat, laoreet lorem eget, condimentum
+                    lectus. Donec sapien ex, volutpat sed turpis eget, aliquet tempor massa. Mauris lobortis nulla in neque faucibus, in mollis nibh pretium. Duis consectetur accumsan orci sit amet fermentum.
+                </p>
+            </div>
+        </div>
+
+        </div>
+    </main>
+
+    <section class="contenedor section">
+        <!--Etiqueta para secciones/ Usar cuando el primer hijo sea un encabezado-->
+        <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
+
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <!--Etiqueta para dividir pequeñas secciones dentro de una etiqueta <section></section>-->
+                <img src="img/icono1.svg" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono Mejor Precio">
+                <h3>El Mejor Precio</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono a Tispanpo">
+                <h3>A Tiempo</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer seccion">
+        <!--Etiqueta tambien usada para Tablas de precios/testimoniales/entradas de blog-->
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <!--<a target="_blank" href="#"></a> Para abrir enlance en una pestaña nueva (usar para dirigir a sitios agenos a la web)-->
+                <a href="nosotros.html">Nosotros</a>
+                <!--Enlaces-->
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2019 &copy;</p>
+        </div>
+    </footer>
+    <!--Etiquetas Adicionales
+      <em></em> Inclina el contenido que tengan dentro de ella
+      <b></b> Negrilla al contenido que tengan dentro
+      <strong></strong>Contenido que debe ser resaltado como por ejspanplo Google (No visualmente)-->
+</body>
+
+</html>

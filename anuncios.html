@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!--Donde esta la hoja de estilos-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--Donde esta la hoja de estilos-->
+    <!--Solo tener un id con un solo nombre/ no repetir nombres de id-->
+    <!--Es preferible usar clases/es mas rapido-->
+</head>
+
+<body>
+
+    <header class="site-header">
+        <!--Etiqueta de Encabezado-->
+
+        <div class="contenedor contenido-header">
+
+            <div class="barra">
+                <a href="index.html">
+                    <!--Se agrupa la imagen para que funcione como un boton-->
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                    <!--Etiqueta para importar imagenes-->
+                </a>
+
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono Menu">
+                    </a>
+                </div>
+                <nav id="navegacion" class="navegacion">
+                    <!--Etiqueta para navegaciones-->
+                    <!--<a target="_blank" href="#"></a> Para abrir enlance en una pestaña nueva (usar para dirigir a sitios agenos a la web)-->
+                    <a href="nosotros.html">Nosotros</a>
+                    <!--Enlaces-->
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <!--barra-->
+        </div>
+        <!--contenedor-->
+    </header>
+
+    <main class="contenedor seccion">
+        <!--Se usa la etiqueta main para agrupar el contenido principal de la pagina(en este caso, venta de casas y departamentos)
+    / Nota: Solo puede haber una etiqueta main por pagina-->
+        <h2 class="fw-300 centrar-texto">Casas y Departamentos en Venta</h2>
+
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <!--Usamos div ya que el primer hijo no un un header, de lo contrario usar etiqueta section-->
+                <img src="img/anuncio1.jpg" alt="Anuncio casa de lujo en el Lago">
+                <div class="contenido-anuncio">
+                    <h3>Casa de Lujo en el Lago</h3>
+                    <p>Casa en el lago con excelente vista, de lujo a un excelente precio</p>
+                    <p class="precio">$3.000.000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/anuncio2.jpg" alt="Anuncio casa terminados de lujo">
+                <div class="contenido-anuncio">
+                    <h3>Casa de terminados de lujo</h3>
+                    <p>Casa con diseño moderno, así como tecnologia inteligente y amueblada</p>
+                    <p class="precio">$2.000.000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/anuncio3.jpg" alt="Anuncio con piscina">
+                <div class="contenido-anuncio">
+                    <h3>Casa con Piscina</h3>
+                    <p>Casa con piscina y acabados de lujo en la ciudad, excelente oportunidad</p>
+                    <p class="precio">$3.000.000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
+                </div>
+                <!--contenido anuncio-->
+            </div>
+            <!--anuncio-->
+
+            <div class="anuncio">
+                <img src="img/anuncio4.jpg" alt="Anuncio casa de lujo">
+                <div class="contenido-anuncio">
+                    <h3>Casa fuera de la ciudad</h3>
+                    <p>Casa con piscina y acabados de lujo fuera de la ciudad, excelente oportunidad</p>
+                    <p class="precio">$2.000.000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>2</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                            <p>2</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <p>5</p>
+                        </li>
+                    </ul>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
+                </div>
+                <!--contenido anuncio-->
+            </div>
+            <!--anuncio-->
+
+            <div class="anuncio">
+                <img src="img/anuncio5.jpg" alt="Anuncio con piscina">
+                <div class="contenido-anuncio">
+                    <h3>Casa frente al bosque</h3>
+                    <p>Casa con piscina frente al bosque, excelente oportunidad</p>
+                    <p class="precio">$3.500.000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                            <p>2</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
+                </div>
+                <!--contenido anuncio-->
+            </div>
+            <!--anuncio-->
+
+            <div class="anuncio">
+                <img src="img/anuncio6.jpg" alt="Anuncio con piscina">
+                <div class="contenido-anuncio">
+                    <h3>Casa con Piscina</h3>
+                    <p>Casa con piscina y acabados de lujo en la ciudad, excelente oportunidad</p>
+                    <p class="precio">$4.000.000</p>
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                            <p>5</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                            <p>7</p>
+                        </li>
+                    </ul>
+                    <a href="anuncio.html" class="boton boton-amarillo d-block">Ver Propiedad</a>
+                </div>
+                <!--contenido anuncio-->
+            </div>
+            <!--anuncio-->
+        </div>
+    </main>
+
+    <footer class="site-footer seccion">
+        <!--Etiqueta tambien usada para Tablas de precios/testimoniales/entradas de blog-->
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <!--<a target="_blank" href="#"></a> Para abrir enlance en una pestaña nueva (usar para dirigir a sitios agenos a la web)-->
+                <a href="nosotros.html">Nosotros</a>
+                <!--Enlaces-->
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2019 &copy;</p>
+        </div>
+    </footer>
+    <!--Etiquetas Adicionales
+  <em></em> Inclina el contenido que tengan dentro de ella
+  <b></b> Negrilla al contenido que tengan dentro
+  <strong></strong>Contenido que debe ser resaltado como por ejspanplo Google (No visualmente)-->
+</body>
+
+</html>

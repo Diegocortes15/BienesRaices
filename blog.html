@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <!--Donde esta la hoja de estilos-->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--Donde esta la hoja de estilos-->
+    <!--Solo tener un id con un solo nombre/ no repetir nombres de id-->
+    <!--Es preferible usar clases/es mas rapido-->
+</head>
+
+<body>
+
+    <header class="site-header">
+        <!--Etiqueta de Encabezado-->
+
+        <div class="contenedor contenido-header">
+
+            <div class="barra">
+                <a href="index.html">
+                    <!--Se agrupa la imagen para que funcione como un boton-->
+                    <img src="img/logo.svg" alt="Logotipo de Bienes Raices">
+                    <!--Etiqueta para importar imagenes-->
+                </a>
+
+                <div class="mobile-menu">
+                    <a href="#navegacion">
+                        <img src="img/barras.svg" alt="Icono Menu">
+                    </a>
+                </div>
+                <nav id="navegacion" class="navegacion">
+                    <!--Etiqueta para navegaciones-->
+                    <!--<a target="_blank" href="#"></a> Para abrir enlance en una pestaña nueva (usar para dirigir a sitios agenos a la web)-->
+                    <a href="nosotros.html">Nosotros</a>
+                    <!--Enlaces-->
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <!--barra-->
+        </div>
+        <!--contenedor-->
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1 class="fw-300 centrar-texto">Nuestro Blog</h1>
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img src="img/blog1.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Terraza en el techo de tu casa</h4>
+                </a>
+                <p>Escrito el: <span> 20/10/2019 </span> por: <span> Admin </span></p>
+                <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero</p>
+            </div>
+        </article>
+
+        <article class="entrada-blog">
+            <!--Etiqueta para entradas de blog, cada respuesta en un foro-->
+            <div class="imagen">
+                <img src="img/blog2.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Construye una piscina en tu hogar</h4>
+                </a>
+                <p>Escrito el: <span> 20/10/2019 </span> por: <span> Admin</span></p>
+                <p>Construye una piscina en tu hogar</p>
+            </div>
+        </article>
+
+        <article class="entrada-blog">
+            <div class="imagen">
+                <img src="img/blog3.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Guia para la decoracion de tu hogar</h4>
+                </a>
+                <p>Escrito el: <span> 20/10/2019 </span> por: <span> Admin </span></p>
+                <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
+                </p>
+            </div>
+        </article>
+
+        <article class="entrada-blog">
+            <!--Etiqueta para entradas de blog, cada respuesta en un foro-->
+            <div class="imagen">
+                <img src="img/blog4.jpg" alt="Entrada de blog">
+            </div>
+            <div class="texto-entrada">
+                <a href="entrada.html">
+                    <h4>Guía para la decoración de tu habitación</h4>
+                </a>
+                <p>Escrito el: <span> 20/10/2019 </span> por: <span> Admin</span></p>
+                <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer seccion">
+        <!--Etiqueta tambien usada para Tablas de precios/testimoniales/entradas de blog-->
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <!--<a target="_blank" href="#"></a> Para abrir enlance en una pestaña nueva (usar para dirigir a sitios agenos a la web)-->
+                <a href="nosotros.html">Nosotros</a>
+                <!--Enlaces-->
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2019 &copy;</p>
+        </div>
+    </footer>
+    <!--Etiquetas Adicionales
+  <em></em> Inclina el contenido que tengan dentro de ella
+  <b></b> Negrilla al contenido que tengan dentro
+  <strong></strong>Contenido que debe ser resaltado como por ejspanplo Google (No visualmente)-->
+</body>
+
+</html>
