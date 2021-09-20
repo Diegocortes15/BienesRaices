@@ -2,4 +2,4 @@
 
 Click the link below
 
-[Bienes Raices](https://bienesraices-diego.netlify.app/)
+[Bienes Raices](https://bienesraiices-diego.netlify.app/)
